@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="135.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="600.0" layoutY="28.0">
+               <image>
+                  <Image url="@img/brown-rocky-background.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="584.0" layoutX="8.0" layoutY="35.0">
+               <image>
+                  <Image url="@img/images.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="8.0">
+               <image>
+                  <Image url="@img/racing-motorcycle-emoji-vector-icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="8.0" layoutY="77.0" text="Post Office">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="150.0" layoutY="77.0" text="Location 1" />
+            <Label layoutX="253.0" layoutY="77.0" text="Location 2" />
+            <Label layoutX="353.0" layoutY="77.0" text="Location 3" />
+            <Label layoutX="461.0" layoutY="77.0" text="Location 4" />
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="165.0" layoutY="9.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="268.0" layoutY="9.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="368.0" layoutY="9.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="476.0" layoutY="9.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="150.0" layoutY="103.0" text=" 1 km" />
+            <Label layoutX="253.0" layoutY="103.0" text=" 1 km" />
+            <Label layoutX="350.0" layoutY="103.0" text=" 1 km" />
+            <Label layoutX="461.0" layoutY="103.0" text=" 1 km" />
+            <Label layoutY="103.0" text="Post Office Name" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1.0" layoutY="136.0" prefHeight="128.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="600.0" layoutY="28.0">
+               <image>
+                  <Image url="@img/brown-rocky-background.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="584.0" layoutX="8.0" layoutY="35.0">
+               <image>
+                  <Image url="@img/images.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="8.0">
+               <image>
+                  <Image url="@img/racing-motorcycle-emoji-vector-icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="157.0" layoutY="80.0" text="Location 5" />
+            <Label layoutX="256.0" layoutY="80.0" text="Location 6" />
+            <Label layoutX="358.0" layoutY="80.0" text="Location 7" />
+            <Label layoutX="458.0" layoutY="80.0" text="Location 8" />
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="172.0" layoutY="11.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="271.0" layoutY="11.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="373.0" layoutY="11.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="473.0" layoutY="11.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="153.0" layoutY="106.0" text=" 1 km" />
+            <Label layoutX="256.0" layoutY="108.0" text=" 1 km" />
+            <Label layoutX="356.0" layoutY="109.0" text=" 1 km" />
+            <Label layoutX="458.0" layoutY="109.0" text=" 1 km" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-1.0" layoutY="264.0" prefHeight="135.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="604.0" layoutY="28.0">
+               <image>
+                  <Image url="@img/brown-rocky-background.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="584.0" layoutX="8.0" layoutY="35.0">
+               <image>
+                  <Image url="@img/images.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="8.0">
+               <image>
+                  <Image url="@img/racing-motorcycle-emoji-vector-icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="155.0" layoutY="83.0" text="Location 9" />
+            <Label layoutX="260.0" layoutY="83.0" text="Location 10" />
+            <Label layoutX="360.0" layoutY="83.0" text="Location 11" />
+            <Label layoutX="455.0" layoutY="83.0" text="Location 12" />
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="170.0" layoutY="11.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="279.0" layoutY="11.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="372.0" layoutY="11.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="25.0" layoutX="473.0" layoutY="11.0">
+               <image>
+                  <Image url="@img/red-location-icon-map-png-4.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="154.0" layoutY="110.0" text=" 1 km" />
+            <Label layoutX="260.0" layoutY="110.0" text=" 1 km" />
+            <Label layoutX="357.0" layoutY="110.0" text=" 1 km" />
+            <Label layoutX="455.0" layoutY="110.0" text=" 1 km" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
