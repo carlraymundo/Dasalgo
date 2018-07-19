@@ -1,4 +1,7 @@
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,6 +19,7 @@ public class mailManager {
 	public mailManager() {
 		
 		initializeComponents();
+		
 		startMail();
 		
 	}
@@ -24,7 +28,9 @@ public class mailManager {
 		/*** Read from MAP.CSV ***/
 		CSVReader csvreader = new CSVReader();
 		/*** Read from MAP.CSV ***/
-		 
+		locationList = new ArrayList<location>();
+		locationList.addAll(csvreader.readFile());
+		
 		/*** Initialize Mail ***/
 		//mail = new Mail();
 		mailman = new mailMan();
@@ -40,15 +46,21 @@ public class mailManager {
 	
 	}
 
+
+	
 	public void startMail() {
 		Scanner scan = new Scanner(System.in);
 		int postOfficeInput = -999, mailInput = -999;
 		boolean isFinished = false; //check if user has chosen a command
 		
 		
+		
 		System.out.println("\nWelcome to the Mail Delivery Simulation");
         /***prints out the post office for the user to choose***/
 
+		
+		
+		
 		for(int i = 0; i < postOfficeList.size(); i++) {
 			System.out.println((i+1) + ".) " + postOfficeList.get(i).getsPostOffice());  
 		}
@@ -78,6 +90,7 @@ public class mailManager {
 		
 		System.out.println("\nHow Many Mails are there to be delivered?");
 		mailInput = scan.nextInt();
+		
 		
 		mailList = new ArrayList<Mail>();
 		for(int i = 0; i <= mailInput; i++) {
