@@ -9,8 +9,6 @@ import java.util.Scanner;
 public class mailManager {
 	private ArrayList<postOffice> postOfficeList;
 	private ArrayList<location> locationList;
-	private ArrayList<destination> destinationList;
-	private ArrayList<distance> distanceList;
 	private ArrayList<Mail> mailList;
 	
 	//private Mail mail;
@@ -37,6 +35,7 @@ public class mailManager {
 		/*** Initialize Mail ***/
 		
 		/*** Initialize postOffice ***/
+		
 		postOfficeList = new ArrayList<postOffice>();
 		postOfficeList.add(new postOffice("Manila City"));	
 		postOfficeList.add(new postOffice("Quezon City"));
@@ -58,8 +57,6 @@ public class mailManager {
 		System.out.println("\nWelcome to the Mail Delivery Simulation");
         /***prints out the post office for the user to choose***/
 
-		
-		
 		
 		for(int i = 0; i < postOfficeList.size(); i++) {
 			System.out.println((i+1) + ".) " + postOfficeList.get(i).getsPostOffice());  
@@ -91,12 +88,22 @@ public class mailManager {
 		System.out.println("\nHow Many Mails are there to be delivered?");
 		mailInput = scan.nextInt();
 		
+		ArrayList< String> mail = new ArrayList<String>();
 		
-		mailList = new ArrayList<Mail>();
-		for(int i = 0; i <= mailInput; i++) {
-			// mailList.add(new Mail()); // CREATE NEW INSTANCES OF MAILS FROM CSV FILE
-			 
+		for(int i=1; i<=mailInput;i++) {
+			System.out.println("Destination of Mail [" + i + "]" + "= ");
+			mail.add(scan.next());
+			
+			
 		}
+		
+		for(int i=0; i< mail.size();i++) {
+			System.out.println(mail.get(i));
+			
+		}
+	
+		
+		
 		
 		//System.out.println(mailInput); // to check if mails to be delivered is correct
 	}
