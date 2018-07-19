@@ -1,4 +1,3 @@
-package model;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,7 +6,7 @@ import java.io.IOException;
 public class CSVReader {
 	
 	public static void main(String args[]) {
-	String csvFile = "C:\\Users\\Carl James Raymundo\\Documents\\GitHub\\Dasalgo\\Map.csv";
+	String csvFile = "C:\\Users\\Enoch\\Desktop\\DLSU\\DASALGO\\DASALGO\\Sample\\src\\Map.csv";
     String line = "";
     String cvsSplitBy = ",";
 
