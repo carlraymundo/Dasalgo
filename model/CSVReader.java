@@ -1,4 +1,4 @@
-
+package model;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.util.*;
 public class CSVReader {
 	
 	public ArrayList<location> readFile(){
-	String csvFile = "C:\\Users\\Enoch\\Desktop\\DLSU\\DASALGO\\DASALGO\\Sample\\src\\Map.csv";
+	String csvFile = "C:\\Users\\Micah\\Desktop\\Micah\\3rd Term 2017-2018\\DASALGO\\MP1\\Dasalgo\\Map.csv";
     String line = "";
     String cvsSplitBy = ",";
     
@@ -25,6 +25,7 @@ public class CSVReader {
             l.setsDistance(loc[3]);
             System.out.println("[Post Office = "+ loc[0] + "] [Location = " + loc[1] + "] [Destination = " + loc[2] + "] [Distance(km) = "+ loc[3]+"]");
             locationList.add(l);
+            
         }
 
     } catch (IOException e) {

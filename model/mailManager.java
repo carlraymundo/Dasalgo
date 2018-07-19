@@ -1,4 +1,4 @@
-
+package model;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -44,11 +44,10 @@ public class mailManager {
 		/*** Initialize postOffice ***/
 	
 	}
-
-
 	
 	public void startMail() {
 		Scanner scan = new Scanner(System.in);
+		String input;
 		int postOfficeInput = -999, mailInput = -999;
 		boolean isFinished = false; //check if user has chosen a command
 		
@@ -83,27 +82,50 @@ public class mailManager {
 		System.out.println("Current Post Office:  " + postOfficeList.get(postOfficeInput).getsPostOffice());
 		//mail.setMailpostOffice(postOfficeList.get(postOfficeInput)); // sets the first mail to the starting point
 		mailman.setMailpostOffice(postOfficeList.get(postOfficeInput));
-
 		
 		System.out.println("\nHow Many Mails are there to be delivered?");
 		mailInput = scan.nextInt();
 		
 		ArrayList< String> mail = new ArrayList<String>();
+		location l = new location();
 		
-		for(int i=1; i<=mailInput;i++) {
-			System.out.println("Destination of Mail [" + i + "]" + "= ");
-			mail.add(scan.next());
+		//Filtering part (USE CSVReader)
+		
+		if(postOfficeList.get(postOfficeInput).getsPostOffice().equalsIgnoreCase("Manila City")) {
+			//Add code para maview lang yung mga destinations sa Manila City
+			//Check if existing ba yung destination
 			
+		}else if(postOfficeList.get(postOfficeInput).getsPostOffice().equalsIgnoreCase("Quezon City")) {
+			//Add code para maview lang yung mga destinations sa Quezon City
+			//Check if existing ba yung destination
 			
+		}else if(postOfficeList.get(postOfficeInput).getsPostOffice().equalsIgnoreCase("Makati City")) {
+			//Add code para maview lang yung mga destinations sa Makati City
+			//Check if existing ba yung destination
+			
+		}else if(postOfficeList.get(postOfficeInput).getsPostOffice().equalsIgnoreCase("Pasay City")) {
+			//Add code para maview lang yung mga destinations sa Pasay City
+			//Check if existing ba yung destination	
 		}
 		
+		
+		for(int i=0; i<mailInput;i++) {
+			System.out.println("Destination of Mail [" + (i+1) + "]" + "= ");
+			Scanner sc= new Scanner(System.in);
+			input= sc.nextLine();
+			mail.add(input);
+
+			//Dapat maapply dito yung filtering part
+			if(mail.get(i).equalsIgnoreCase("De La Salle University Manila 2401 Taft Ave Malate Manila 1004 Metro Manila")){
+				System.out.println("String compare for Strings w/ spaces");
+			} 	    
+		}
+		
+		//If destination exist, display
 		for(int i=0; i< mail.size();i++) {
 			System.out.println(mail.get(i));
 			
 		}
-	
-		
-		
 		
 		//System.out.println(mailInput); // to check if mails to be delivered is correct
 	}

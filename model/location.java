@@ -1,5 +1,5 @@
 
-
+package model;
 public class location {
 	private String sPostNames, sLocation, sDestination, sDistance ;
 
