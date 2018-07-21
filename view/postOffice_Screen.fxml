@@ -9,16 +9,15 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DisplayPostOffice">
    <children>
       <ImageView fitHeight="406.0" fitWidth="606.0" layoutY="-6.0">
          <image>
-            <Image url="@img/cartoon-map-river-mountain-houses-50727793.jpg" />
+            <Image url="@img/map.jpg" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b0b8bf" height="35.0" layoutX="8.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
-      <Button layoutX="340.0" layoutY="28.0" mnemonicParsing="false" text="Quezon City">
+      <Button fx:id="quezon" layoutX="340.0" layoutY="28.0" mnemonicParsing="false" text="Quezon City">
          <font>
             <Font name="Bodoni MT Bold" size="12.0" />
          </font>
@@ -26,7 +25,7 @@
             <DropShadow />
          </effect>
       </Button>
-      <Button layoutX="239.0" layoutY="176.0" mnemonicParsing="false" text="Makati City">
+      <Button fx:id="makati" layoutX="239.0" layoutY="176.0" mnemonicParsing="false" text="Makati City">
          <font>
             <Font name="Bodoni MT Bold" size="12.0" />
          </font>
@@ -34,7 +33,7 @@
             <DropShadow />
          </effect>
       </Button>
-      <Button layoutX="498.0" layoutY="238.0" mnemonicParsing="false" text="Pasay City">
+      <Button fx:id="pasay" layoutX="498.0" layoutY="238.0" mnemonicParsing="false" text="Pasay City">
          <font>
             <Font name="Bodoni MT Bold" size="12.0" />
          </font>
@@ -47,7 +46,7 @@
             <Image url="@img/post_office%201.png" />
          </image>
       </ImageView>
-      <Button layoutX="14.0" layoutY="158.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="85.0" text="Manila City">
+      <Button fx:id="manila" layoutX="14.0" layoutY="158.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="85.0" text="Manila City">
          <font>
             <Font name="Bodoni MT Bold" size="12.0" />
          </font>

@@ -13,8 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MailInputs">
    <children>
       <ImageView fitHeight="412.0" fitWidth="615.0" layoutX="-7.0" layoutY="-6.0">
          <image>
@@ -29,7 +28,7 @@
             <Font name="Bodoni MT" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="414.0" layoutY="37.0" prefHeight="25.0" prefWidth="35.0" />
+      <TextField fx:id="noOfMails" layoutX="414.0" layoutY="37.0" prefHeight="25.0" prefWidth="35.0" />
       <ScrollPane layoutX="55.0" layoutY="82.0" prefHeight="263.0" prefWidth="491.0">
          <content>
             <GridPane prefHeight="90.0" prefWidth="489.0">
@@ -45,12 +44,12 @@
             </GridPane>
          </content>
       </ScrollPane>
-      <Button layoutX="534.0" layoutY="366.0" mnemonicParsing="false" text="Next">
+      <Button fx:id="btnNext" layoutX="534.0" layoutY="366.0" mnemonicParsing="false" text="Next">
          <font>
             <Font name="Bodoni MT" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="471.0" layoutY="366.0" mnemonicParsing="false" text="Back">
+      <Button fx:id="btnBack" layoutX="471.0" layoutY="366.0" mnemonicParsing="false" text="Back">
          <font>
             <Font name="Bodoni MT" size="15.0" />
          </font>
