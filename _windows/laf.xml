@@ -2,7 +2,11 @@
   <component name="LafManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <laf class-name="com.intellij.ide.ui.laf.IntelliJLaf" />
+=======
+    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" />
+>>>>>>> parent of a273a0e... IU-2018.1.6 <Enoch@DESKTOP-OH5R2CL Merge branch 'master'
 =======
     <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" />
 >>>>>>> parent of a273a0e... IU-2018.1.6 <Enoch@DESKTOP-OH5R2CL Merge branch 'master'
