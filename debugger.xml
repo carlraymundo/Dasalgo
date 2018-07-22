@@ -71,18 +71,12 @@
       <option name="INCLUDE" value="true" />
     </filter>
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of a273a0e... IU-2018.1.6 <Enoch@DESKTOP-OH5R2CL Merge branch 'master'
     <filter>
       <option name="PATTERN" value="kotlin.*" />
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
-<<<<<<< HEAD
->>>>>>> parent of a273a0e... IU-2018.1.6 <Enoch@DESKTOP-OH5R2CL Merge branch 'master'
-=======
 >>>>>>> parent of a273a0e... IU-2018.1.6 <Enoch@DESKTOP-OH5R2CL Merge branch 'master'
   </component>
   <component name="XDebuggerSettings">
