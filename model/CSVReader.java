@@ -7,7 +7,7 @@ import java.util.*;
 public class CSVReader {
 	
 	public ArrayList<location> readFile(){
-	String csvFile = "C:\\Users\\Micah\\Desktop\\Micah\\3rd Term 2017-2018\\DASALGO\\MP1\\Dasalgo\\Map.csv";
+	String csvFile = "C:\\Users\\Enoch\\Documents\\GitHub\\Dasalgo\\Map.csv";
     String line = "";
     String cvsSplitBy = ",";
     
