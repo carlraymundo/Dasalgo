@@ -23,4 +23,8 @@ public class MailInputs {
     @FXML
     private TextArea displayDestination;
 
+    @FXML
+    public void initialize() {
+    	
+    }
 }
