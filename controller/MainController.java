@@ -31,23 +31,23 @@ public class MainController {
 	 
 	 @FXML
 		void GetUserInput(ActionEvent event) {
-		 	changeScene("howmanymails_Screen.fxml",event);
+		 	changeScene("/view/MailInputs_Screen.fxml",event);
 		}
 	 
 	 @FXML
 	 	void Start(ActionEvent event) {
-		 changeScene("mailmandelivery_Screen.fxml",event);
+		 changeScene("/view/Main_Screen.fxml",event);
 	 }
 	 
 	 
 	 @FXML
 		void ViewDelivery(ActionEvent event) {
-		 	changeScene("movingmotor_Screen.fxml",event);
+		 	changeScene("/view/Delivery_Screen.fxml",event);
 		}
 	 
 	 @FXML
 	 	void SelectCity(ActionEvent event) {
-		 changeScene("postOffice_Screen.fxml",event);
+		 changeScene("/view/postOffice_Screen.fxml",event);
 	 }
 	 
 	 

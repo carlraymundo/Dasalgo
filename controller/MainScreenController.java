@@ -16,23 +16,13 @@ import javafx.stage.Stage;
 public class MainScreenController {
 
     @FXML
-    
-    private Button startID;
+    private Button Start;
 	 
 
+    private MainController c = new MainController();
+    
     @FXML
-    public void startDisplay(ActionEvent event) {
-    	try {
-    	Parent DisplayPostOffice = FXMLLoader.load(getClass().getResource("/view/postOffice_Screen.fxml"));
-    	Scene DisplayPostOfficeScene = new Scene(DisplayPostOffice);
-    	
-    	Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-    	
-    	window.setScene(DisplayPostOfficeScene);
-    	window.show();
-    	} catch(Exception e) {
-			e.printStackTrace();
-		}
+    void SelectCity(ActionEvent event) {
+    	c.SelectCity(event);
     }
-
 }
