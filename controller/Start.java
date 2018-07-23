@@ -27,6 +27,7 @@ public class Start extends Application {
 			this.primaryStage.setTitle("Mailman Delivery Simulation Program");
 			showMainView();
 
+<<<<<<< HEAD
 	}
 	
 	private void showMainView() throws IOException {
@@ -42,4 +43,7 @@ public class Start extends Application {
 		launch(args);
 	}
 	
+=======
+    
+>>>>>>> 7fe1b32a5b84b0d5d25d0bfbba833dca565a7764
 }
