@@ -1,9 +1,5 @@
 package model;
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 288d71e9738c81f7737d63a344c4ed2ad2a27a8b
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
