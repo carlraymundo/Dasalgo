@@ -125,5 +125,19 @@ public class DisplayDelivery {
 
     @FXML
     private Label distance12;
+    
+    @FXML
+    public void initialize() {
+    	
+    	System.out.println("X value: " + motor1.getX());
+    	System.out.println("Y value: " + motor1.getY());
+    	System.out.println();
+    	
+    	double value = 550.00;
+    	motor1.setX(value);
+    	System.out.println("X value: " + motor1.getX());
+    	
+    
+    }
 
 }
