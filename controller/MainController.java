@@ -50,6 +50,11 @@ public class MainController {
 		 changeScene("/view/postOffice_Screen.fxml",event);
 	 }
 	 
+	 @FXML
+	 void Exit(ActionEvent event) {
+		 changeScene("/view/Main_Screen.fxml",event);
+	 }
+	 
 	 
 	
 	 @FXML

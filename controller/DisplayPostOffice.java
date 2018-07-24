@@ -19,6 +19,9 @@ public class DisplayPostOffice {
     @FXML
     private Button manila;
     
+    @FXML
+    private Button exit;
+    
     private location Location = new location();
     
     
@@ -50,6 +53,10 @@ public class DisplayPostOffice {
     	Location.setPostName("Pasay City");
     	System.out.println(Location.getPostName());
     	c.GetUserInput(event);
+    }
+    @FXML
+    public void Exit(ActionEvent event) {
+    	c.Exit(event);
     }
 
 }

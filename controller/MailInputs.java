@@ -9,6 +9,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import model.Address;
@@ -35,6 +36,9 @@ public class MailInputs{
     @FXML
     private Button Add;
     
+    @FXML
+    ListView<String> list = new ListView<>();
+    
     ArrayList<Address> AddressList = new ArrayList<Address>();
     ArrayList<Mail> MailContainer = new ArrayList<Mail>();
     
@@ -55,6 +59,10 @@ public class MailInputs{
     	}
     	
     	comboBox1.setItems(addresses);
+//    	comboBox1.setOnAction((e) ->{
+//    		list.getItems().add(comboBox1.getSelectionModel().getSelectedItem());
+//    	});
+//    	add();
     }
         
 	public void display() {
@@ -71,6 +79,11 @@ public class MailInputs{
 	public void add() {
 		String selected = comboBox1.getValue();
 		System.out.println("Selected input: " + selected);
+		
+		//comboBox1.setOnAction((e) ->{
+    		list.getItems().add(selected);
+    	//});
+		
 		for(int j=0;j<AddressList.size();j++) {
 			if(AddressList.get(j).getDestination().equalsIgnoreCase(selected)) {
 				Mail mail = new Mail();
