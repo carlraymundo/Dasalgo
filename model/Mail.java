@@ -4,7 +4,7 @@ public class Mail {
 
 	private String mailLocation;
 	private String mailDestination;
-	private double mailDistance;
+	private float mailDistance;
 	private int mailpriority;
 	
 	
@@ -27,10 +27,10 @@ public class Mail {
 	public void setMailDestination(String mailDestination) {
 		this.mailDestination = mailDestination;
 	}
-	public double getMailDistance() {
+	public float getMailDistance() {
 		return mailDistance;
 	}
-	public void setMailDistance(double mailDistance) {
+	public void setMailDistance(float mailDistance) {
 		this.mailDistance = mailDistance;
 	}
 	
