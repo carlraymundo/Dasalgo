@@ -6,6 +6,7 @@ import java.util.Comparator;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
@@ -15,6 +16,7 @@ import javafx.scene.control.TextField;
 import model.Address;
 import model.CSVReader;
 import model.Mail;
+import model.location;
 
 public class MailInputs{
 
@@ -113,5 +115,23 @@ public class MailInputs{
 			}
 		}));
 	}
+	
+	private MainController c = new MainController();
+	    
+	    @FXML
+	    void SelectCity(ActionEvent event) {
+	    	c.SelectCity(event);
+	    }
+	    
+	    @FXML
+	    void ViewDelivery(ActionEvent event) {
+	    	c.ViewDelivery(event, MailContainer,AddressList,location);
+	    }
+
+		public void setData(location location) {
+			this.location = location;
+		}
+		
+		private location location = null;
 
 }

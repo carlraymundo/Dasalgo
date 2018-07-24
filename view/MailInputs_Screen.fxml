@@ -28,12 +28,12 @@
          </font>
       </Label>
       <TextField fx:id="noOfMails" layoutX="414.0" layoutY="37.0" prefHeight="25.0" prefWidth="35.0" />
-      <Button fx:id="btnNext" layoutX="534.0" layoutY="366.0" mnemonicParsing="false" text="Next">
+      <Button fx:id="btnNext" layoutX="534.0" layoutY="366.0" mnemonicParsing="false" onAction="#ViewDelivery" text="Next">
          <font>
             <Font name="Bodoni MT" size="15.0" />
          </font>
       </Button>
-      <Button fx:id="btnBack" layoutX="471.0" layoutY="366.0" mnemonicParsing="false" text="Back">
+      <Button fx:id="btnBack" layoutX="471.0" layoutY="366.0" mnemonicParsing="false" onAction="#SelectCity" text="Back">
          <font>
             <Font name="Bodoni MT" size="15.0" />
          </font>

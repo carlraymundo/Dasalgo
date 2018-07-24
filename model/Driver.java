@@ -7,5 +7,4 @@ public class Driver {
 		mailManager MailManager = new mailManager();
 	
 	}
-
 }
