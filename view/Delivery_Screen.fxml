@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #39B7CD;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DisplayDelivery">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DisplayDelivery">
    <children>
       <AnchorPane layoutY="-1.0" prefHeight="135.0" prefWidth="600.0">
          <children>
@@ -34,22 +34,22 @@
             <Label fx:id="location2" layoutX="253.0" layoutY="77.0" text="Location 2" />
             <Label fx:id="location3" layoutX="353.0" layoutY="77.0" text="Location 3" />
             <Label fx:id="location4" layoutX="461.0" layoutY="77.0" text="Location 4" />
-            <ImageView fx:id="point1" fitHeight="26.0" fitWidth="25.0" layoutX="165.0" layoutY="9.0">
+            <ImageView fx:id="point1" fitHeight="26.0" fitWidth="25.0" layoutX="110.0" layoutY="9.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point2" fitHeight="26.0" fitWidth="25.0" layoutX="268.0" layoutY="9.0">
+            <ImageView fx:id="point2" fitHeight="26.0" fitWidth="25.0" layoutX="220.0" layoutY="9.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point3" fitHeight="26.0" fitWidth="25.0" layoutX="368.0" layoutY="9.0">
+            <ImageView fx:id="point3" fitHeight="26.0" fitWidth="25.0" layoutX="330.0" layoutY="9.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point4" fitHeight="26.0" fitWidth="25.0" layoutX="476.0" layoutY="9.0">
+            <ImageView fx:id="point4" fitHeight="26.0" fitWidth="25.0" layoutX="440.0" layoutY="9.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
@@ -82,22 +82,22 @@
             <Label fx:id="location6" layoutX="256.0" layoutY="80.0" text="Location 6" />
             <Label fx:id="location7" layoutX="358.0" layoutY="80.0" text="Location 7" />
             <Label fx:id="location8" layoutX="458.0" layoutY="80.0" text="Location 8" />
-            <ImageView fx:id="point5" fitHeight="26.0" fitWidth="25.0" layoutX="172.0" layoutY="11.0">
+            <ImageView fx:id="point5" fitHeight="26.0" fitWidth="25.0" layoutX="110.0" layoutY="11.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point6" fitHeight="26.0" fitWidth="25.0" layoutX="271.0" layoutY="11.0">
+            <ImageView fx:id="point6" fitHeight="26.0" fitWidth="25.0" layoutX="220.0" layoutY="11.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point7" fitHeight="26.0" fitWidth="25.0" layoutX="373.0" layoutY="11.0">
+            <ImageView fx:id="point7" fitHeight="26.0" fitWidth="25.0" layoutX="330.0" layoutY="11.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point8" fitHeight="26.0" fitWidth="25.0" layoutX="473.0" layoutY="11.0">
+            <ImageView fx:id="point8" fitHeight="26.0" fitWidth="25.0" layoutX="440.0" layoutY="11.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
@@ -129,22 +129,22 @@
             <Label fx:id="location10" layoutX="260.0" layoutY="83.0" text="Location 10" />
             <Label fx:id="location11" layoutX="360.0" layoutY="83.0" text="Location 11" />
             <Label fx:id="location12" layoutX="455.0" layoutY="83.0" text="Location 12" />
-            <ImageView fx:id="point9" fitHeight="26.0" fitWidth="25.0" layoutX="170.0" layoutY="11.0">
+            <ImageView fx:id="point9" fitHeight="26.0" fitWidth="25.0" layoutX="110.0" layoutY="11.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point10" fitHeight="26.0" fitWidth="25.0" layoutX="279.0" layoutY="11.0">
+            <ImageView fx:id="point10" fitHeight="26.0" fitWidth="25.0" layoutX="220.0" layoutY="11.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point11" fitHeight="26.0" fitWidth="25.0" layoutX="372.0" layoutY="11.0">
+            <ImageView fx:id="point11" fitHeight="26.0" fitWidth="25.0" layoutX="330.0" layoutY="11.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="point12" fitHeight="26.0" fitWidth="25.0" layoutX="473.0" layoutY="11.0">
+            <ImageView fx:id="point12" fitHeight="26.0" fitWidth="25.0" layoutX="440.0" layoutY="11.0">
                <image>
                   <Image url="@img/location.png" />
                </image>
